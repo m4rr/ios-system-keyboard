@@ -53,33 +53,35 @@ iOS:
   iPad-12in:
     layers:
       default: |
-        \s{tab:1.5}      й ү у к е н ң г ш щ з х \s{return}
+        >                1 2 3 4 5 6 7 8 9 0 - = \s{backspace:1.5}
+        \s{tab:1.5}      й ү у к е н ң г ш з х ъ \s{return}
         \s{caps:1.75}    ө ы в а п р о л д ж э ё \s{return:0.75}
         \s{shift:1.25} ] я ч с м и т ь б ю ц ф / \s{shift:2.25}
       shift: |
-        \s{tab:1.5}      Й Ү У К Е Н Ң Г Ш Щ З Х \s{return}
+        <                ! ” № % : , . ; ( ) _ + \s{backspace:1.5}
+        \s{tab:1.5}      Й Ү У К Е Н Ң Г Ш З Х Ъ \s{return}
         \s{caps:1.75}    Ө Ы В А П Р О Л Д Ж Э Ё \s{return:0.75}
-        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю Ц Ф ? \s{shift:2.25}
+        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?     \s{shift:2.25}
       alt: |
-        §                1 2 3 4 5 6 7 8 9 0 – = \s{backspace:1.5}
-        \s{tab:1.5}      ҋ ј π $ % ӊ & < > ‘ “ ₽ \s{return}
-        \s{caps:1.75}    ¯ • ° @ ^ ҏ ´ ӆ δ { } – \s{return:0.75}
-        \s{shift:1.25} \ Ω һ ≠ ӎ ∑ ¨ * … » “     \s{shift:2.25}
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
       alt+shift: |
-        ±                ! ” № % : , . ; ( ) _ + \s{backspace:1.5}
-        \s{tab:1.5}      Ҋ Ј £ Ќ ∞ Ӊ ¶ ≤ ≥ ’ ” ₽ \s{return}
-        \s{caps:1.75}     ̄ | Ћ € ¬ Ҏ  ́ Ӆ Δ ’ ` — \s{return:0.75}
-        \s{shift:1.25} ÷ ± Һ ≈ Ӎ µ  ̈ √ ~ « „     \s{shift:2.25}
+        `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
       symbols-1: |
         `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
         \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
-        \s{spacer:1.75}  - / : ; ( ) ₽ & @ € $ ~ \s{return:0.75}
-        \s{spacer:3.25}    … . , ? ! ‘ “ _ £     \s{spacer:2.25}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
       symbols-2: |
         `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
         \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
-        \s{spacer:1.75}  - / : ; ( ) ₽ & @ € $ ~ \s{return:0.75}
-        \s{spacer:3.25}    … . , ? ! ‘ “ _ £     \s{spacer:2.25}
+        \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~ \s{return:0.75}
+        \s{shift:1.25}     … . , ? ! ' " _ €     \s{shift:2.25}
   deadKeys:
     alt: ['¯', '¨', '´']
 macOS:
@@ -166,6 +168,7 @@ longpress:
   д: -
   т: –
   ь: ъ
+  $: ₽
   '%': ‰ ∞
   '=': ≠ ≈
   '-': • – —
