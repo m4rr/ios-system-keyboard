@@ -90,16 +90,16 @@ longpress: !include tyv-longpress.yaml
 keyNames:
   space: ажык
   return: дедир
- return-alts:
-   search: дилээр
-   go: че
-   send: чорудар
-   join: коштунар
-   cancel: ойталал
-   continue: улаштыр
-   done: чаа
-   emergency: онза байдал
-   next: дараазында
-   route: чорук изи
- undo: эгидер
- redo: катаптаар
+  return-alts:
+    search: дилээр
+    go: че
+    send: чорудар
+    join: коштунар
+    cancel: ойталал
+    continue: улаштыр
+    done: чаа
+    emergency: онза байдал
+    next: дараазында
+    route: чорук изи
+  undo: эгидер
+  redo: катаптаар
