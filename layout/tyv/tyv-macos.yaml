@@ -30,7 +30,6 @@ macOS:
         Ф — – ± © ₽ ° ™ ∆ … Э
         { ≈ ≠ µ Π } ~ < > „
       alt+caps: *ALT
-      ctrl: |
       cmd: &CMD |
         q w e r t y u i o p [ ] \
         a s d f g h j k l ; '
