@@ -88,18 +88,18 @@ iOS:
 longpress: !include tat-longpress.yaml
 
 keyNames:
-  space: Бушлык
-  return: Керү
+  space: Буш ара
+  return: Керт
   return-alts:
-    search: Эзләү
-    go: Күчәргә
-    send: Җибәрү
-    join: Кушылу
-    continue: Дәвам итү
-    done: Әзер
-    next: Алга
+    search: Эзлә
+    go: Күч
+    send: Җибәр
+    join: Тоташу
     route: Маршрут
+    next: Алга
+    continue: Дәвам ит
+    done: Әзер
   emergency: SOS
-  cancel: Кире кагу
-  undo: Кире кайтару
-  redo: Кабатлау
+  cancel: Баш тарту
+  undo: Элеккегесен кайтар
+  redo: Ясалганын кайтар
