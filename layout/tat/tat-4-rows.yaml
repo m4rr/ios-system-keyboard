@@ -85,8 +85,8 @@ iOS:
         \s{caps:1.75}    - / : ; ( ) $ & @ £ ¥ ~     \s{return:1.75}
         \s{shift:1.25}     … . , ? ! ' " _ €         \s{shift:2.25}
   deadKeys:
-    alt: []
-
+    alt: ['¯', '¨', '´']
+    
 longpress: !include tat-longpress.yaml
 
 keyNames:
