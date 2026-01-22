@@ -28,7 +28,7 @@ macOS:
       alt+shift: |
         Ј Џ Ќ ® † Њ Ѓ Ѕ Ў ’ ” Ъ Ё
         Ƒ Ы Ћ ÷ © ₽ • Љ ∆ … Э
-        Ђ ≈ ≠ € И ™ ~ < > „
+        Ђ ≈ ≠ µ И ™ ~ < > „
       alt+caps: *ALT
       cmd: &CMD |
         q w e r t y u i o p [ ] \
