@@ -5,6 +5,7 @@ displayNames:
 
 decimal: ','
 ABC: 'АБВ'
+abc: 'абв'
 
 iOS:
   primary:
